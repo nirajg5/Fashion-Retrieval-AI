@@ -1,0 +1,7 @@
+{
+    "images": 1000,
+    "annotations": 5863,
+    "categories": 46,
+    "attributes": 294,
+    "average_objects_per_image": 5.86
+}
