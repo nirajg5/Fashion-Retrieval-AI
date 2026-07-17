@@ -15,9 +15,7 @@ class FashionRetriever:
         self.reranker = reranker
         self.index = index_manager
 
-    ############################################################
     # TEXT RETRIEVAL
-    ############################################################
 
     def retrieve(self, query):
 
@@ -90,9 +88,8 @@ class FashionRetriever:
 
         }
 
-    ############################################################
+    
     # IMAGE RETRIEVAL
-    ############################################################
 
     def retrieve_by_image(self, image_path):
 
@@ -155,9 +152,7 @@ class FashionRetriever:
 
         }
 
-    ############################################################
     # ENRICH RESULTS
-    ############################################################
 
     def _enrich_results(self, results):
 
